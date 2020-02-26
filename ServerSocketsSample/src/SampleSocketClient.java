@@ -40,7 +40,7 @@ public class SampleSocketClient {
 					else {
 						break;
 					}
-					line = "";
+					line = "";	
 				}
 				catch(Exception e) {
 					System.out.println("Connection dropped");
@@ -78,3 +78,5 @@ public class SampleSocketClient {
 	}
 
 }
+
+
