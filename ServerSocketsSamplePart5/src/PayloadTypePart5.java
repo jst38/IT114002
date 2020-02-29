@@ -1,4 +1,6 @@
-
-public class PayloadTypePart5 {
-
+public enum PayloadTypePart5 {
+	CONNECT,
+	DISCONNECT,
+	MESSAGE
+	
 }
